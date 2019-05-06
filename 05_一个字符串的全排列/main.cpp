@@ -17,6 +17,9 @@ using std::string;
 class Solution{
     public:
         vector<string> Permutation(string str){
+            if(str.empty()){
+                return res;
+            }
             vector<string> res;
             QuanPaiLie(str, 0, res);
             return res;
