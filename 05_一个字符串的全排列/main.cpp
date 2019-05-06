@@ -28,7 +28,7 @@ class Solution{
     private:
         void QuanPaiLie(string str, int step, vector<string> &v){
             if(step == str.length()){
-                //下面三行代码是与“不含重复字符.cpp”不同之处
+                //下面三行代码是如果含重复字符的话，避免重复保存的功能
                 if(find(v.begin(), v.end(), str) == v.end()){
                     v.push_back(str);
                 }
