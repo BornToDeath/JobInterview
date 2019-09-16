@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Solution {
 
 	public static void main(String[] args) {
-        while(true){
-            Scanner sc = new Scanner(System.in);
-            System.out.println(maxSubStringLength(sc.nextLine()));
-        }
+	    while(true){
+	        Scanner sc = new Scanner(System.in);
+	        System.out.println(maxSubStringLength(sc.nextLine()));
+	    }
 	}
 	
     /**
