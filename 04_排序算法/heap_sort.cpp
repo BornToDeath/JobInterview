@@ -28,8 +28,8 @@ int main(){
  */
 void HeapSort(int arr[], int len){
     //调整堆的结构，从最后一个非叶子节点开始调整。
-    //如果是升序的话则调整为大顶堆
-    for(int i=len/2-1;i>=0;i--){
+    //如果是升序的话则调整为大顶堆 
+    for(int i=len/2-1;i>=0;i--){ //从最后一个非叶子节点开始调整
         HeapAdjust(arr, i, len);
     }
     int temp;
