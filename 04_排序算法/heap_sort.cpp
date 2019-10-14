@@ -53,7 +53,7 @@ void HeapSort(int arr[], int len){
 void HeapAdjust(int arr[], int index, int len){
     int child;
     while(index*2+1 < len){
-        child = index * 2 + 1; //右孩子
+        child = index * 2 + 1; //左孩子
         if(child+1 < len && arr[child] < arr[child+1]){  //左孩子小于右孩子
             child++;
         }
